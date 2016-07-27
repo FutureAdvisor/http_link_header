@@ -1,6 +1,8 @@
+require 'set'
+
 class HttpLinkHeader::HttpLinkParams < ::Hash
   DELIMETER = ';'
-  RELATION_TYPE_ATTRIBUTES = Set['rel', 'rev']
+  RELATION_TYPE_ATTRIBUTES = ::Set['rel', 'rev']
 
   class RelationTypes < ::Set
 
@@ -8,6 +10,7 @@ class HttpLinkHeader::HttpLinkParams < ::Hash
       if relation_types.is_a?(Enumerable)
         super(relation_types)
       elsif relation_types.is_a?(String)
+        super()
         add(relation_types)
       else
         raise ArgumentError, "invalid relation-types: #{relation_types}"
