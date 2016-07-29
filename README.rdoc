@@ -1,7 +1,0 @@
-= HttpLinkHeader
-
-Parses and generates HTTP Link headers as defined by
-{IETF RFC 5988}[http://tools.ietf.org/html/rfc5988].
-
-Author::  Clyde Law (mailto:claw@alum.mit.edu)
-License:: Released under the MIT license
