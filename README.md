@@ -5,7 +5,7 @@ Parses and generates HTTP Link headers as defined by
 
 <dl>
   <dt>Author</dt>
-  <dd>Clyde Law (mailto:claw@alum.mit.edu)</dd>
+  <dd>FutureAdvisor</dd>
 
   <dt>License</dt>
   <dd>Released under the MIT license</dd>

@@ -5,9 +5,9 @@ require "http_link_header/version"
 Gem::Specification.new do |s|
   s.name        = "http_link_header"
   s.version     = HttpLinkHeader::VERSION
-  s.authors     = ["Clyde Law"]
-  s.email       = ["claw@alum.mit.edu"]
-  s.homepage    = %q{http://github.com/Umofomia/http_link_header}
+  s.authors     = ["FutureAdvisor"]
+  s.email       = ["core.platform@futureadvisor.com"]
+  s.homepage    = %q{http://github.com/FutureAdvisor/http_link_header}
   s.summary     = %q{Parses and generates HTTP Link headers as defined by IETF RFC 5988.}
   s.description = %q{Parses and generates HTTP Link headers as defined by IETF RFC 5988.}
   s.license     = 'MIT'
